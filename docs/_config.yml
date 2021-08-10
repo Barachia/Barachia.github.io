@@ -71,11 +71,17 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/jtvwts"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-github-square"
       url: "https://github.com/Barachia"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/Barachia"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jbvanwaterschoot/"
+    - label: "BoardGameGeek"
+      icon: "fas fa-dice"
+      url: "https://boardgamegeek.com/user/Jelte"
 
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
@@ -87,8 +93,11 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/jtvwts"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-github-square"
       url: "https://github.com/Barachia"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/Barachia"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jbvanwaterschoot/"
@@ -119,13 +128,25 @@ defaults:
 
 comments:
   provider: "giscus"
-  giscus:
-    repo_id: "MDEwOlJlcG9zaXRvcnkzOTE5ODY2MTA"
-    category_name: "Announcements"
-    category_id: "DIC_kwDOF109ss4B-jWa" 
-    discussion_term: "pathname"
-    reactions_enabled: "1"
-    theme: "dark"
+
+utterances:
+  repo: "Barachia.github.io"
+  issue-term: "pathname"
+  label: "Comments"
+  theme: "dark-blue"
+
+giscus:
+  repo: "Barachia/Barachia.github.io"
+  repo_id: "MDEwOlJlcG9zaXRvcnkzOTE5ODY2MTA"
+  category: "Comments"
+  category_name: "Announcements"
+  category_id: "DIC_kwDOF109ss4B-jWa" 
+  mapping: "pathname"
+  discussion_term: "pathname"
+  reactions_enabled: "1"
+  reaction_enabled: "1"
+  theme: "dark"
+  crossorigin: "anonymous"
 
 category_archive:
   type: liquid
